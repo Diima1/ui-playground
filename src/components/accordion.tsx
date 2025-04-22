@@ -1,31 +1,3 @@
-// import { Accordion } from '@ark-ui/solid/accordion'
-// import { icons } from "./icons";
-// import { Index } from 'solid-js'
-
-// export const Collapsible = () => {
-//   return (
-//     <Accordion.Root class="accordion" defaultValue={['React']} collapsible>
-//       <Index each={['React', 'Solid', 'Vue']}>
-//         {(item) => (
-//           <Accordion.Item value={item()}>
-//             <Accordion.ItemTrigger class="item-trigger">
-//               What is {item()}?
-//               <Accordion.ItemIndicator>
-//               <icons.CaretDown size={20} color="white" />
-//               </Accordion.ItemIndicator>
-//               </Accordion.ItemTrigger>
-//               <Accordion.ItemContent class="item-content">
-//               {item()} is a JavaScript library for building user interfaces.
-//             </Accordion.ItemContent>
-//           </Accordion.Item>
-//         )}
-//       </Index>
-//     </Accordion.Root>
-//   )
-// }
-
-// export default Collapsible;
-
 import { Accordion } from '@ark-ui/solid/accordion'
 import { Index } from 'solid-js'
 import { icons } from './icons'

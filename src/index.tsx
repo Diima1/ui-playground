@@ -1,7 +1,7 @@
 import { render } from 'solid-js/web';
 import './index.css';
 import Button from './components/button';
-import PinInput from './components/pinInput'
+import { PinInput } from './components/pinInput'
 import Collapsible from './components/accordion';
 
 

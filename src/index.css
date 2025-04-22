@@ -146,8 +146,6 @@ button:hover .inner-layer {
 .pin-box-wrapper {
   display: flex;
   gap: 0.5rem;
-  width: 100%;
-  justify-content: flex-start;
 }
 
 .pin-box {
