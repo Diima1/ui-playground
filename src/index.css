@@ -4,19 +4,25 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #17141c;
+}
+
+.hero-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #17141c;
   min-height: 100vh;
+  position: relative;
 }
 
 .main-containers {
   display: flex;
   flex-direction: row;
-  align-items: stretch; /* Makes children the same height */
+  align-items: stretch;
   justify-content: center;
   gap: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .dark-container {
